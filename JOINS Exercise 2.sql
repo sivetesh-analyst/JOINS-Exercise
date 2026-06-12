@@ -89,3 +89,13 @@ SELECT A.user_id, A.user_name,  B.subscription_id, C.plan_id, C.plan_name
 FROM joinsexercise.joinsschema.users AS A  
 FULL OUTER  JOIN joinsexercise.joinsschema.subscriptions AS B ON A.user_id = B.user_id 
 FULL OUTER JOIN `joinsexercise`.`joinsschema`.`plans` AS C ON B.plan_id = C.plan_id;
+
+---Bonus Questions:
+--Bonus 01: Kabelo and Lerato
+--Bonus 02:Subscription_id:504 
+--Bonus 03:704: Cooking Lab and 706:Wild Earth
+--Bonus 04:704: Cooking Lab
+--Bonus 05: Plan_id:14 (Mobile)
+
+
+
